@@ -32,6 +32,10 @@ body {
   flex-wrap: wrap;
 }
 
+.column {
+  flex-direction: column;
+}
+
 .space_btw {
   justify-content: space-between;
 }
@@ -44,8 +48,52 @@ body {
   align-items: flex-end;
 }
 
+.align_start {
+  align-items: flex-start;
+}
+
+.wd_10p {
+  width: 10%;
+}
+
 .wd_20p {
   width: 20%;
+}
+
+.wd_36p {
+  width: 36.5%;
+}
+
+.wd_60p {
+  width: 60%;
+}
+
+.w_70p {
+  width: 70%;
+}
+
+.m_auto {
+  margin: 2rem auto 0 auto;
+}
+
+.fb_52 {
+  flex-basis: 52%;
+}
+
+.mt_2 {
+  margin-top: 2rem;
+}
+
+.mt_3 {
+  margin-top: 3rem;
+}
+
+.mb_7 {
+  margin-bottom: 7rem;
+}
+
+.ml_4 {
+  margin-left: 4rem;
 }
 
 .white {
@@ -131,4 +179,55 @@ header {
 
 .brown3 {
   height: 20rem;
+}
+
+.red_txt {
+  text-align: left;
+  margin-top: 7.5rem;
+  max-width: 26.5rem;
+}
+
+.red1 {
+  height: 28rem;
+}
+
+.red2 {
+  height: 14rem;
+  margin-left: 1rem;
+}
+
+.red3 {
+  margin-left: 6rem;
+  height: 17rem;
+}
+
+.red4 {
+  height: 12.5rem;
+  margin-left: 1rem;
+}
+
+.white1 {
+  height: 16rem;
+}
+
+.white3 {
+  height: 14rem;
+  margin-left: 17rem;
+}
+
+.white4 {
+  height: 21rem;
+}
+
+.white5 {
+  height: 26rem;
+}
+
+.pink2 {
+  height: 15rem;
+}
+
+.pink3 {
+  height: 23rem;
+  margin-left: 11.3rem;
 }

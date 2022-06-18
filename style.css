@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=El+Messiri:wght@400;500;600;700&family=Joan&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* COLORS */
+:root {
+  --bg-color: #f1e5d8;
+  --primary-color: #967245;
+  --primary-dark: #372510;
+  --white-color: #ffffff;
+}
+
+/*UTILITY CLASSES  & COMMON*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+  /* background-color: var(--bg-color); */
+  font-family: "Cormorant Garamond", serif;
+  /* font-family: "El Messiri", sans-serif; */
+  /* font-family: "Joan", serif; */
+  /* font-family: "Quattrocento Sans", sans-serif; */
+  overflow-x: hidden;
+}
+
+body {
+  margin: 1rem 6rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space_btw {
+  justify-content: space-between;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.align_end {
+  align-items: flex-end;
+}
+
+.wd_20p {
+  width: 20%;
+}
+
+.white {
+  color: var(--white-color);
+}
+
+/* INDIVIDUAL STYLES */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 3.5rem;
+}
+
+.brand_name {
+  font-size: 1.5rem;
+}
+
+header {
+  margin: 1.5rem;
+  position: relative;
+}
+
+.primary_heading {
+  font-size: 5.6rem;
+  color: var(--primary-dark);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.hero_img {
+  height: 31rem;
+}
+
+.side_txt {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: var(--primary-color);
+}
